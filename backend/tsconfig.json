@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    /* Core Setup */
+    "target": "ES6",
+    "module": "CommonJS",
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    /* Node Compatibility */
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+
+    /* Strictness */
+    "strict": true,
+
+    /* Types */
+    "types": ["node"],
+
+    /* Dev Experience */
+    "skipLibCheck": true
+  }
+}
