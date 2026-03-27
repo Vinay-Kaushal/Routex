@@ -14,10 +14,11 @@
 - Express
 - TypeScript
 - MongoDB
-- Nextjs
 --Tailwind and Shadcn
 --passport.js
 --Twilio
+--reactjs
+-framermotion
 
 
 ## Setup
