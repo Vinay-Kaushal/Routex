@@ -2,14 +2,15 @@
   "compilerOptions": {
     /* Core Setup */
     "target": "ES6",
-    "module": "CommonJS",
+    "module": "commonjs",
     "rootDir": "./src",
     "outDir": "./dist",
+    "ignoreDepreciations" : "6.0",
 
     /* Node Compatibility */
     "esModuleInterop": true,
     "resolveJsonModule": true,
-    "moduleResolution": "node",
+    "moduleResolution": "nodenext",
 
     /* Strictness */
     "strict": true,
