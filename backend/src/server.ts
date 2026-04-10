@@ -9,13 +9,13 @@ import authRoutes from "./routes/authRoutes";
 import tripRoutes from "../src/routes/tripRoutes";
 
 dotenv.config();
+import "./config/passport";
 
 const app = express();
 
 app.use(cors());
 app.use(express.json());
 app.use(passport.initialize());
-
 
 app.use("/api/auth", authRoutes);
 app.use("/api/trips", tripRoutes);

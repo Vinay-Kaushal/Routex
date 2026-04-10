@@ -1,6 +1,12 @@
 import passport from "passport";
 import { Strategy as GoogleStrategy } from "passport-google-oauth20";
 import User from "../models/User";
+import dotenv from "dotenv" ;
+import path from "path";
+
+dotenv.config({
+  path: path.resolve(process.cwd(), ".env"),
+});
 
 passport.use(
   new GoogleStrategy(
@@ -27,4 +33,3 @@ passport.use(
   )
 );
 
-export default passport;
